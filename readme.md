@@ -90,12 +90,3 @@ npm start
    - Enter your desired username and password.
 4. Use the provided API endpoints to create, modify, and solve labyrinths.
 5. If you encounter SSL issues, navigate to Postman's settings (top-right gear icon). Under 'General', disable "SSL certificate verification".
-
-## Troubleshooting
-
-Error: `write EPROTO 2075176584:error...`:
-This error usually pertains to an SSL/TLS issue. Ensure that you're not trying to connect using HTTPS to an HTTP endpoint, or vice versa.
-
-## Concluding Remarks
-
-This documentation aims to provide a clear guide to setting up and using the Labyrinth REST service. For further queries, please refer to the official Express and MongoDB documentation or contact the development team.
